@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Register Page</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="bg-light">
+
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container">
+                    <a class="navbar-brand" href="#">TechStore</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+                            <li class="nav-item"><a class="Products-btn nav-link" href="#products">Products</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                        </ul>
+                        <div>
+                            <button class="btn btn-danger ms-5 d-none">Sign Out</button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main id="register" class="register-sec">
+        <div class="container d-flex justify-content-center align-items-center">
+        <div class="card shadow-lg p-4" style="max-width: 500px; width: 100%;">
+            <h3 class="text-center text-primary my-4">Create a New Account</h3>
+            <form id="myForm">
+                <div class="mb-3">
+                    <label for="firstName" class="form-label">First Name</label>
+                    <input type="text" class="form-control" id="firstName" placeholder="Enter your first name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="lastName" class="form-label">Last Name</label>
+                    <input type="text" class="form-control" id="lastName" placeholder="Enter your last name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email Address</label>
+                    <input type="email" class="form-control" id="email" placeholder="example@example.com" required>
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="Enter Your Password Here" required>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Gender</label>
+                    <div class="d-flex gap-3">
+                        <div class="form-check">
+                            <input class="gender form-check-input " type="radio" name="gender" id="male" value="Male" required >
+                            <label class="form-check-label" for="male">Male</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="gender form-check-input" type="radio" name="gender" id="female" value="Female" required>
+                            <label class="form-check-label" for="female">Female</label>
+                        </div>
+                    </div>
+                </div>
+                <button type="submit" class="submit btn btn-primary w-100">Register</button>
+                <p class="text-center mt-3">Already have an account? <a href="./login.html" class="signIn text-primary">Sign In</a></p>
+            </form>
+        </div>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-light py-4">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>About Us</h5>
+                    <p>TechStore is your go-to destination for the latest and greatest in technology. We bring the best products at unbeatable prices.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Follow Us</h5>
+                    <a href="#" class="text-light me-2"><i class="bi bi-facebook fs-4"></i></a>
+                    <a href="#" class="text-light me-2"><i class="bi bi-twitter fs-4"></i></a>
+                    <a href="#" class="text-light me-2"><i class="bi bi-instagram fs-4"></i></a>
+                    <a href="#" class="text-light"><i class="bi bi-youtube fs-4"></i></a>
+                </div>
+                <div class="col-md-4">
+                    <h5>Newsletter</h5>
+                    <p>Subscribe to our newsletter for the latest updates.</p>
+                    <input type="email" class="form-control mb-2" placeholder="Enter your email">
+                    <button class="btn btn-primary w-100 any-btn">Subscribe</button>
+                </div>
+            </div>
+            <hr class="bg-light">
+            <p class="mb-0">Eng-Mohammed Bassiouny © 2025 TechStore. All rights reserved.</p>
+        </div>
+    </footer>
+    
+
+    <script src="../js/bootstrap.bundle.js"></script>
+    <script type="module" src="../js/register.js"></script>
+</body>
+</html>
+

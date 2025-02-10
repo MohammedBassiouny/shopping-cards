@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Shopping-Card</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container">
+                    <a class="navbar-brand" href="#">TechStore</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+                            <li class="nav-item"><a class="Products-btn nav-link" href="#products">Products</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main class="login-sec">
+            <div class=" container bg-white p-4 rounded shadow-lg" style="max-width: 500px; width: 90%; position: relative;">
+                <div class="d-flex justify-content-end">
+                </div>
+                <h3 class="text-center text-primary">Sign In</h3>
+                <form id="loginForm">
+                    <div class="mb-3">
+                        <label for="InputEmail" class="form-label text-dark" >Email address</label>
+                        <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="example@example.com">
+                        <div id="emailHelp" class="form-text">
+                            Do you have an account? <a href="./register.html" class="text-primary">Register</a>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="InputPassword" class="form-label  text-dark">Password</label>
+                        <input type="password" class="form-control" id="InputPassword" placeholder="*****************************">
+                    </div>
+                    <button type="submit" class="submit btn w-100">Submit</button>
+                </form>
+            </div>
+    </main>
+    
+    <footer class="bg-dark text-light py-4">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>About Us</h5>
+                    <p>TechStore is your go-to destination for the latest and greatest in technology. We bring the best products at unbeatable prices.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Follow Us</h5>
+                    <a href="#" class="text-light me-2"><i class="bi bi-facebook fs-4"></i></a>
+                    <a href="#" class="text-light me-2"><i class="bi bi-twitter fs-4"></i></a>
+                    <a href="#" class="text-light me-2"><i class="bi bi-instagram fs-4"></i></a>
+                    <a href="#" class="text-light"><i class="bi bi-youtube fs-4"></i></a>
+                </div>
+                <div class="col-md-4">
+                    <h5>Newsletter</h5>
+                    <p>Subscribe to our newsletter for the latest updates.</p>
+                    <input type="email" class="form-control mb-2" placeholder="Enter your email">
+                    <button class="btn btn-primary w-100 any-btn">Subscribe</button>
+                </div>
+            </div>
+            <hr class="bg-light">
+            <p class="mb-0">Eng-Mohammed Bassiouny © 2025 TechStore. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <script src="../js/bootstrap.bundle.js"></script>
+    <script type="module" src="../js/login.js"></script>
+</body>
+</html>

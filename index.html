@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Shopping-Card</title>
+</head>
+<body>
+    <header class="position-sticky top-0 z-3">
+        <div class="container">
+            <nav class="navbar navbar-expand-xl navbar-dark ">
+                <div class="container">
+                    <a class="navbar-brand" href="#">TechStore</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <div class="welcome">
+                            <div class="text-light">
+                                <span class="user-name fs-3 mt-3 "></span>
+                            </div>
+                            <div class="icon  ms-5 text-light position-relative">
+                                <i class="fa-solid fa-cart-arrow-down fs-1"></i>
+                                <span class="counter rounded-5 text-bg-danger p-1 position-absolute">0</span>
+                            </div>
+                        </div>
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+                            <li class="nav-item"><a id="products-btn" class="products-btn nav-link" href="#">Products</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                        </ul>
+                        <div>
+                            <button class="SignOut btn btn-danger ms-5 ">Sign Out</button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main class="hero">
+        <div class="hero-content">
+            <h1>Discover the Future of Tech</h1>
+            <p>Shop the latest and greatest electronics with unbeatable deals.</p>
+            <a href="./pages/login.html" class="signIn btn m-5 ">Sign In</a>
+            <a href="./pages/register.html" class="register btn ">Register</a>
+            <a href="#products" class="show btn ">SHOW OUR PRODUCTS</a>
+        </div>
+    </main>
+    <section id="products">
+        <div class="container mb-5">
+            <div class="row">
+                <!-- products will be shown here -->
+            </div>
+        </div>   
+    </section>
+
+    
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-4 text-outline text-center fs-1  mt-5">Contact Us</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Your Message</label>
+                            <textarea class="form-control" id="message" rows="4" placeholder="Type your message here"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100 any-btn">Send Message</button>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <h4 class="fw-bold">Get in Touch</h4>
+                    <p>Feel free to reach out to us anytime. We are here to assist you!</p>
+                    <div class="mt-3">
+                        <p><i class="bi bi-geo-alt-fill text-primary"></i> 123 Tech Street, Cairo, Egypt</p>
+                        <p><i class="bi bi-envelope-fill text-primary"></i> support@techstore.com</p>
+                        <p><i class="bi bi-telephone-fill text-primary"></i> +20 123 456 7890</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="bg-dark text-light py-4">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>About Us</h5>
+                    <p>TechStore is your go-to destination for the latest and greatest in technology. We bring the best products at unbeatable prices.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Follow Us</h5>
+                    <a href="#" class="text-light me-2"><i class="bi bi-facebook fs-4"></i></a>
+                    <a href="#" class="text-light me-2"><i class="bi bi-twitter fs-4"></i></a>
+                    <a href="#" class="text-light me-2"><i class="bi bi-instagram fs-4"></i></a>
+                    <a href="#" class="text-light"><i class="bi bi-youtube fs-4"></i></a>
+                </div>
+                <div class="col-md-4">
+                    <h5>Newsletter</h5>
+                    <p>Subscribe to our newsletter for the latest updates.</p>
+                    <input type="email" class="form-control mb-2" placeholder="Enter your email">
+                    <button class="btn btn-primary w-100 any-btn">Subscribe</button>
+                </div>
+            </div>
+            <hr class="bg-light">
+            <p class="mb-0">Eng-Mohammed Bassiouny © 2025 TechStore. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    
+
+
+    <script src="./js/bootstrap.bundle.js"></script>
+    <script type="module" src="./js/script.js"></script>
+</body>
+</html>
