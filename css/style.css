@@ -31,7 +31,7 @@ header {
     color: #ff6600 !important;
 }
 .hero {
-    background: url('../img/pexels-photo.jpg') no-repeat center;
+    background: url('../images/pexels-photo.jpg') no-repeat center;
     background-size: cover;
     color: white;
     height: 91vh;
@@ -109,7 +109,7 @@ header {
 }
 
 .register-sec  {
-    background: url('../img/pexels-photo.jpg') no-repeat center center;
+    background: url('../images/pexels-photo.jpg') no-repeat center center;
     background-size: cover;
     color: white;
     height: 120vh;
@@ -118,7 +118,7 @@ header {
 }
 
 .login-sec{
-    background: url('../img/pexels-photo.jpg') no-repeat center center;
+    background: url('../images/pexels-photo.jpg') no-repeat center center;
     background-size: cover;
     color: white;
     height: 91vh;
