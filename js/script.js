@@ -25,7 +25,7 @@ let products = {
     type: "mobile",
     brand: "OPPO",
     price: 6100,
-    imgUrl: "/images/12-01-2024-07-35-44-879.jpg",
+    imgUrl: "./images/12-01-2024-07-35-44-879.jpg",
     desc: ["Storage 64 GB  ", "Ram 4 GB", "Color Glowing Blue", "Phone"],
   },
 
@@ -34,7 +34,7 @@ let products = {
     type: "mobile",
     brand: "OPPO",
     price: 5050,
-    imgUrl: "../images/15-01-2025-04-41-13-021.jpg",
+    imgUrl: "./images/15-01-2025-04-41-13-021.jpg",
     desc: ["Storage 64 GB  ", "Ram 3 GB", "Color Navy Blue", "Phone"],
   },
   product4: {
@@ -42,7 +42,7 @@ let products = {
     type: "mobile",
     brand: "OPPO",
     price: 26500,
-    imgUrl: "../images/19-10-2024-09-56-05-527.jpg",
+    imgUrl: "./images/19-10-2024-09-56-05-527.jpg",
     desc: ["Storage 512 GB ", "Ram 12 GB", "Color Nebula black", "Phone"],
   },
   product5: {
@@ -50,7 +50,7 @@ let products = {
     type: "mobile",
     brand: "Infinix",
     price: 7500,
-    imgUrl: "../images/16-12-2024-02-29-18-575.jpg",
+    imgUrl: "./images/16-12-2024-02-29-18-575.jpg",
     desc: ["Storage 256 GB ", "Ram 16 GB", "Color TITANIUM GREY", "Phone"],
   },
   product6: {
@@ -58,7 +58,7 @@ let products = {
     type: "mobile",
     brand: "Infinix",
     price: 6800,
-    imgUrl: "../images/10-11-2024-06-18-32-619.jpg",
+    imgUrl: "./images/10-11-2024-06-18-32-619.jpg",
     desc: ["Storage 256 GB ", "Ram 8 GB", "Color PALM BLUE", "Phone"],
   },
   product7: {
@@ -66,7 +66,7 @@ let products = {
     type: "mobile",
     brand: "Infinix",
     price: 4400,
-    imgUrl: "../images/20-05-2024-02-07-02-554.jpg",
+    imgUrl: "./images/20-05-2024-02-07-02-554.jpg",
     desc: ["Storage 64 GB ", "Ram 4 GB", "Color Crystal Green", "Phone"],
   },
   product8: {
@@ -74,7 +74,7 @@ let products = {
     type: "mobile",
     brand: "honor",
     price: 8990,
-    imgUrl: "../images/04-11-2024-03-02-00-593.jpg",
+    imgUrl: "./images/04-11-2024-03-02-00-593.jpg",
     desc: ["Storage 256 GB ", "Ram 8 GB", "Color Forest Green", "Phone"],
   },
   product9: {
@@ -82,7 +82,7 @@ let products = {
     type: "lapTop",
     brand: "Lenovo",
     price: 59900,
-    imgUrl: "../images/03-01-2025-07-33-14-097.jpg",
+    imgUrl: "./images/03-01-2025-07-33-14-097.jpg",
     desc: ["Storage 1 TB ", "Ram 16 GB", "Color Frost Gray", "lapTop"],
   },
   product10: {
@@ -90,7 +90,7 @@ let products = {
     type: "lapTop",
     brand: "Lenovo",
     price: 35950,
-    imgUrl: "../images/25-08-2024-12-22-43-030.jpg",
+    imgUrl: "./images/25-08-2024-12-22-43-030.jpg",
     desc: ["Storage 512 GB ", "Ram 8 GB", "Color Grey", "lapTop"],
   },
   product11: {
@@ -98,7 +98,7 @@ let products = {
     type: "lapTop",
     brand: "Lenovo",
     price: 29900,
-    imgUrl: "../images/06-11-2024-04-22-27-702.jpg",
+    imgUrl: "./images/06-11-2024-04-22-27-702.jpg",
     desc: ["Storage 512 GB ", "Ram 8 GB", "Color Blue", "lapTop"],
   },
   product12: {
@@ -106,7 +106,7 @@ let products = {
     type: "lapTop",
     brand: "Lenovo",
     price: 18750,
-    imgUrl: "../images/24-05-2024-04-45-48-419.jpg",
+    imgUrl: "./images/24-05-2024-04-45-48-419.jpg",
     desc: ["Storage 256 GB ", "Ram 4 GB", "Color Grey", "lapTop"],
   },
   product13: {
@@ -114,7 +114,7 @@ let products = {
     type: "lapTop",
     brand: "Hp",
     price: 40950,
-    imgUrl: "../images/18-10-2024-10-15-14-179.jpg",
+    imgUrl: "./images/18-10-2024-10-15-14-179.jpg",
     desc: ["Storage 512 GB ", "Ram 8 GB", "Color Black", "lapTop"],
   },
   product14: {
@@ -122,7 +122,7 @@ let products = {
     type: "lapTop",
     brand: "Hp",
     price: 15500,
-    imgUrl: "../images/26-04-2024-04-31-09-228.jpg",
+    imgUrl: "./images/26-04-2024-04-31-09-228.jpg",
     desc: ["Storage 1 TB  ", "Ram 8 GB", "Color Silver", "lapTop"],
   },
   product15: {
@@ -130,7 +130,7 @@ let products = {
     type: "lapTop",
     brand: "Hp",
     price: 13500,
-    imgUrl: "../images/05-11-2022-05-20-43-097.jpg",
+    imgUrl: "./images/05-11-2022-05-20-43-097.jpg",
     desc: ["Storage 256 GB  ", "Ram 8 GB", "Color pearl gray", "lapTop"],
   },
   product16: {
@@ -138,7 +138,7 @@ let products = {
     type: "accessories",
     brand: "Anker",
     price: 1490,
-    imgUrl: "../images/13-03-2023-04-01-13-217.jpg",
+    imgUrl: "./images/13-03-2023-04-01-13-217.jpg",
     desc: ["Memory", "", "Color Black", "accessories"],
   },
   product17: {
@@ -146,7 +146,7 @@ let products = {
     type: "accessories",
     brand: "Kingston",
     price: 1250,
-    imgUrl: "../images/14-03-2021-09-27-57-581.jpg",
+    imgUrl: "./images/14-03-2021-09-27-57-581.jpg",
     desc: ["Momery", "", "Color Black", "accessories"],
   },
   product18: {
@@ -154,7 +154,7 @@ let products = {
     type: "accessories",
     brand: "Anker",
     price: 2350,
-    imgUrl: "../images/24-07-2024-09-03-27-080.jpg",
+    imgUrl: "./images/24-07-2024-09-03-27-080.jpg",
     desc: ["Power Bank", "", "Color Black", "accessories"],
   },
   product19: {
@@ -162,7 +162,7 @@ let products = {
     type: "accessories",
     brand: "Oraimo",
     price: 1175,
-    imgUrl: "../images/06-09-2024-01-36-06-103.jpg",
+    imgUrl: "./images/06-09-2024-01-36-06-103.jpg",
     desc: ["Power Bank", "", "Color Black", "accessories"],
   },
   product20: {
@@ -170,7 +170,7 @@ let products = {
     type: "accessories",
     brand: "Huawei",
     price: 10999,
-    imgUrl: "../images/01-10-2024-08-44-19-546.jpg",
+    imgUrl: "./images/01-10-2024-08-44-19-546.jpg",
     desc: ["Smart Watch", "", "Color BROWN", "accessories"],
   },
   product21: {
@@ -178,7 +178,7 @@ let products = {
     type: "accessories",
     brand: "Huawei",
     price: 9750,
-    imgUrl: "../images/09-11-2023-08-23-14-272.jpg",
+    imgUrl: "./images/09-11-2023-08-23-14-272.jpg",
     desc: ["Smart Watch", "", "Color Green", "accessories"],
   },
   product22: {
@@ -186,7 +186,7 @@ let products = {
     type: "accessories",
     brand: "Huawei",
     price: 9750,
-    imgUrl: "../images/09-11-2023-08-24-36-900.jpg",
+    imgUrl: "./images/09-11-2023-08-24-36-900.jpg",
     desc: ["Smart Watch", "", "Color Black", "accessories"],
   },
   product23: {
@@ -194,7 +194,7 @@ let products = {
     type: "accessories",
     brand: "Huawei",
     price:5999,
-    imgUrl: "../images/27-05-2024-12-31-13-624.jpeg",
+    imgUrl: "./images/27-05-2024-12-31-13-624.jpeg",
     desc: ["Smart Watch", "", "Color Black", "accessories"],
   },
   product25: {
@@ -202,7 +202,7 @@ let products = {
     type: "accessories",
     brand: "Huawei",
     price:4490,
-    imgUrl: "../images/04-04-2023-03-20-28-541.jpg",
+    imgUrl: "./images/04-04-2023-03-20-28-541.jpg",
     desc: ["Smart Watch", "", "Color Black", "accessories"],
   },
   
