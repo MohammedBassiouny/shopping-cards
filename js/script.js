@@ -17,7 +17,7 @@ let products = {
     type: "mobile",
     brand: "OPPO",
     price: 9800,
-    imgUrl: "../images/29-08-2024-10-28-50-280.jpg",
+    imgUrl: "./images/29-08-2024-10-28-50-280.jpg",
     desc: ["Storage 256 GB ", "Ram 8 GB", "Color PURPLE", "Phone"],
   },
   product2: {
